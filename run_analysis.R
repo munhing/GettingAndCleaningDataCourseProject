@@ -67,6 +67,6 @@ names(ext_dataset) <- gsub("\\(|\\)", "", names(ext_dataset))
 
 tidy_set <- aggregate(. ~subjectId + activity, ext_dataset, mean)
 tidy_set <- tidy_set[order(tidy_set$subjectId, tidy_set$activity),]
-write.csv(tidy_set, "tidy_set.csv", row.names=FALSE)
+write.table(tidy_set, "tidy_set.txt", row.names=FALSE)
 
 

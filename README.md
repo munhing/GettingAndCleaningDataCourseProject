@@ -12,7 +12,7 @@ The assignment is to create one R script called run_analysis.R that does the fol
 
 In addition to the above requirements, I have also inserted codes at the beginning of the code file that will automatically download the source material and unzip it into a folder called `UCI HAR Dataset` and eventually set the working directory to that folder.
 
-At the end of the code, it will save the `tidy set` to a csv file named `tidy_set.csv`.
+At the end of the code, it will save the `tidy set` to a txt file named `tidy_set.txt`.
 
 I hope you will find my code informative and useful. 
 
